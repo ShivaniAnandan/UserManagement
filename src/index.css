@@ -1,0 +1,238 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0 130px;
+  padding: 0;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  /* height: 100vh; */
+  background-color: #f0f0f0;
+}
+
+div {
+  background-color: white;
+  /* padding: 20px; */
+  /* padding-left: 30px;
+  padding-right: 0px; */
+  border-radius: 8px;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+h1 {
+  margin-top: 0;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+}
+
+button {
+  margin: 5px;
+}
+.container{
+  /* margin: 0; */
+}
+.nav-link{
+  font-weight: bold;
+}
+
+/* userlist styling */
+/* UserList.css */
+.user-list-container {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+}
+
+.user-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
+  
+}
+
+.user-card {
+  /* border: 1px solid yellow; */
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  text-align: center;
+}
+
+.user-card img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.user-info {
+  margin-top: 10px;
+  padding-left:0 ;
+  padding-right:0 ;
+}
+
+.user-info h2 {
+  margin: 10px 0 5px;
+  font-size: 18px;
+  color: #333;
+}
+
+.user-info p {
+  margin: 0 0 10px;
+  color: #666;
+}
+
+.user-actions {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  
+}
+
+.user-actions button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.delete-button{
+  background-color: #dc3545 !important;
+}
+
+.user-actions button:hover {
+  background-color: #0056b3;
+}
+.create-button-container {
+  text-align: center;
+  margin-top: 20px;
+}
+.create-button {
+  margin-top: 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.create-button:hover {
+  background-color: #218838;
+}
+
+/* EditUser styling */
+.edit-user-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.edit-user-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.form-input {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.update-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: #fff;
+  cursor: pointer;
+}
+
+.update-btn:hover {
+  background-color: #3e8e41;
+}
+
+/* CreateUser styling */
+.create-user-container {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-field {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.submit-button {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #3e8e41;
+}
+
+.email{
+  /* margin: 10px; */
+  margin-right: 42px;
+}
+
+/* Styles for error messages */
+.error-message {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+
